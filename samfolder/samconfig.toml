@@ -1,0 +1,9 @@
+version = 0.1
+
+[default.deploy]
+stack_name = "samsample"
+region = "ap-south-1"
+s3_bucket = "lijo-lab"
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = true
+fail_on_empty_changeset = false
