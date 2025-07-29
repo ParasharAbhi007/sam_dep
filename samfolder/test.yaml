@@ -1,0 +1,10 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: newcomponentabhi
+name: newcomponentabhi
+owner: user:account/abhinandan.parashar@harness.io
+spec:
+  lifecycle: prod
+  ownedBy:
+  - user:account/abhinandan.parashar@harness.io
